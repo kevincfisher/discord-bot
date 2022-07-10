@@ -1,0 +1,7 @@
+FROM jarredsumner/bun:edge
+
+ARG DISCORD_APP_ID
+ARG DISCORD_BOT_TOKEN
+ARG DISCORD_PUBLIC_KEY
+
+CMD ["bun", "run.js"]
